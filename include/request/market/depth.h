@@ -7,6 +7,6 @@
 struct DepthRequest {
     char *symbol;
     int depth = 5;
-    char *type = "step0";
+    std::string type = "step0";
 };
 #endif //HUOBI_DEPTHREQUEST_H
